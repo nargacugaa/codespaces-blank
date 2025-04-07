@@ -1,0 +1,15 @@
+{
+  "name": "first-step-wgpu",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "first_step_wgpu_bg.wasm",
+    "first_step_wgpu.js",
+    "first_step_wgpu.d.ts"
+  ],
+  "main": "first_step_wgpu.js",
+  "types": "first_step_wgpu.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
